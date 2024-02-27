@@ -1,0 +1,29 @@
+{
+    "GoalAgent": {
+        "checkpoints": [
+            {
+                "steps": 90726,
+                "file_path": "results\\football-single\\GoalAgent\\GoalAgent-90726.onnx",
+                "reward": -5.0,
+                "creation_time": 1707325119.8674233,
+                "auxillary_file_paths": [
+                    "results\\football-single\\GoalAgent\\GoalAgent-90726.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 90726,
+            "file_path": "results\\football-single\\GoalAgent.onnx",
+            "reward": -5.0,
+            "creation_time": 1707325119.8674233,
+            "auxillary_file_paths": [
+                "results\\football-single\\GoalAgent\\GoalAgent-90726.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.13.1+cu117"
+    }
+}

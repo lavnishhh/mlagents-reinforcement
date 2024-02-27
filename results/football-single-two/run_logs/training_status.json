@@ -1,0 +1,38 @@
+{
+    "GoalAgent": {
+        "checkpoints": [
+            {
+                "steps": 499972,
+                "file_path": "results\\football-single-two\\GoalAgent\\GoalAgent-499972.onnx",
+                "reward": 0.6,
+                "creation_time": 1707316454.1204073,
+                "auxillary_file_paths": [
+                    "results\\football-single-two\\GoalAgent\\GoalAgent-499972.pt"
+                ]
+            },
+            {
+                "steps": 500036,
+                "file_path": "results\\football-single-two\\GoalAgent\\GoalAgent-500036.onnx",
+                "reward": 0.6,
+                "creation_time": 1707316454.16607,
+                "auxillary_file_paths": [
+                    "results\\football-single-two\\GoalAgent\\GoalAgent-500036.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500036,
+            "file_path": "results\\football-single-two\\GoalAgent.onnx",
+            "reward": 0.6,
+            "creation_time": 1707316454.16607,
+            "auxillary_file_paths": [
+                "results\\football-single-two\\GoalAgent\\GoalAgent-500036.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.13.1+cu117"
+    }
+}
